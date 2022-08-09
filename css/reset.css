@@ -73,7 +73,7 @@ h2 {
    .container {
         width: 375px;
         margin: 0 auto;
-        outline: 4px solid hotpink;
+        /* outline: 4px solid hotpink; */
    }
 
    #login-btn {
