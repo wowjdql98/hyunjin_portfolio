@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/pc.css" media="screen and (min-width:768px)">
   <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:767px)">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -45,10 +46,19 @@
 <div id="fullpage">
     <div class="section" id="section1">
       <div class="object">
-        <img src="images/main-object2.png" alt="">
-        <img src="images/main-object3.png" alt="">
+        <img 
+        data-aos="fade-right" 
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        src="images/main-object2.png" alt="">
+        <img
+         data-aos="fade-left"
+         data-aos-offset="300"
+         data-aos-easing="ease-in-sine"
+          src="images/main-object3.png" alt="">
         <img src="images/main-object4.png" alt="">
-        <h1 class="main-title">
+        <h1 data-aos="zoom-in"
+        class="main-title">
           미래로 나아가는<br>
           김 현 진<br>
           PORTFOLIO
@@ -133,6 +143,9 @@
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js'></script><script  src="js/script.js"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
