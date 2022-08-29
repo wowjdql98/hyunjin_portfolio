@@ -157,11 +157,11 @@
 #section3 .slide img{
     float: left;
     margin-left: 150px;
-    outline: 2px solid yellow;
+    /* outline: 2px solid yellow; */
 }
 #section3 .slide .info{
     padding: 20px;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     margin-top: 15%;
 }
 #section3 .slide .info h4{
@@ -185,7 +185,6 @@
 }
 #section3 .slide .info .work-btn .web-btn{
     background-color: #E3E9FF;
-    color: #fff;
     font-size: 26px;
     padding: 10px 50px;
     transition: 0.3s;
@@ -203,15 +202,23 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    outline: 3px solid darkgreen;
-    
+    /* outline: 3px solid darkgreen; */
+    height: 100%;
+    margin-top: 25%;
 }
 #section4 h1{
+
     font-size: 60px;
     font-family: 'SEBANG_Gothic_Bold';
+    margin-bottom: 100px;
 } 
+#section4 h4{
+    font-size: 20px;
+    margin-bottom: 20%;
+}
 #section4 p{
     font-size: 20px;
+
 }
 #section4 .container p:first-child{
     margin-bottom: 50px;
