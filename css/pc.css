@@ -1,0 +1,218 @@
+@import url(style.css);
+
+.container {
+    margin: 0 auto;
+}
+/* header */
+#main-header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    border: 1px solid #000;
+    /* background-color: #fff; */
+  }
+  #main-header h1 {
+    font-size: 24px;
+    margin-left: 40px;
+    position: absolute;
+    left: 0;
+    font-family: 'Rowdies', cursive;
+    font-family: 400;
+  
+  }
+  
+  #menu>ul {
+    display: flex;
+  }
+  
+  #menu>ul>li {
+    font-family: 'SEBANG_Gothic_Bold';
+    font-size: 18px;
+    position: relative;
+    line-height: 30px;
+    margin: 1em 2em;
+  }
+
+
+  #main-header #toggle-menu-btn,
+#main-header #toggle-menu {
+    display: none;
+}
+/* home */
+#section1{
+    position: relative;
+}
+#section1 .object{
+    width: 100%;
+    height: 100%;
+}
+#section1 .object img:nth-child(1){
+    position: absolute;
+    left: -20%; top: 5%;
+    z-index: -1;
+}
+#section1 .object img:nth-child(2){
+    position: absolute;
+    bottom: -5%; right: -2%;
+    z-index: -1;
+}
+#section1 .object img:nth-child(3){
+    position: absolute;
+    bottom: 13%; right: 34%;
+    z-index: -1;
+    height: 600px;
+    width: 600px;
+}
+#section1 > h1 {
+    position: absolute;
+    left: 20px; top: 40px;
+  }
+#section1 .main-title{
+    font-size: 70px;
+    line-height: 70px;
+    font-family: 'SEBANG_Gothic_Bold';
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #12c2e9, #e50041);
+    background-size: 100%;
+    z-index: 999;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    margin-top: 40%;
+  }
+  /* about */
+  #section2{
+    position: relative;
+    overflow: hidden;
+  }
+  #section2 .container{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* outline: 3px solid gold; */
+    z-index: 999;
+  }
+  #section2 h1{
+    font-size: 60px;
+    font-family: 'SEBANG_Gothic_Bold';
+  }
+  #section2 .my-poto{
+    width: 400px;
+    height: 400px;
+    /* outline: 5px solid violet; */
+  }
+  #section2 .text-box {
+    display: flex;
+    flex: 1;
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+    margin-right: 80px;
+    /* outline: 2px solid sienna; */
+  }
+  #section2 .text-box .profile{
+    text-align: start;
+  }
+  #section2 .text-box .profile th{
+    font-size: 20px;
+    padding: 10px;
+}
+#section2 .text-box .profile td{
+    font-size: 18px;
+    padding: 10px;
+}
+#section2 .text-box .profile h2{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#section2 .text-box .profile img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+}
+#section2 .text-box .profile img:last-child{
+    width: 70px;
+    height: 70px
+}
+#section2 .container .object{
+    position: absolute;
+    bottom: -60%;
+    left: 0;
+    z-index: -99;
+    height: 500px;
+    width: 500px;
+}
+/* works */
+#section3 .slide {
+    display: flex;
+    flex-direction: column;
+}
+#section3 .slide img{
+    float: left;
+    margin-left: 150px;
+    outline: 2px solid yellow;
+}
+#section3 .slide .info{
+    padding: 20px;
+    outline: 2px solid red;
+    margin-top: 15%;
+}
+#section3 .slide .info h4{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+#section3 .slide .info p {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+#section3 .slide .info .work-btn{
+    margin-top: 50px;
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    text-align: center;
+}
+#section3 .slide .info .work-btn a{
+    justify-content: center;
+    margin-top: 50%;
+}
+#section3 .slide .info .work-btn .web-btn{
+    background-color: #E3E9FF;
+    color: #fff;
+    font-size: 26px;
+    padding: 10px 50px;
+    transition: 0.3s;
+    margin-right: 50px;
+}
+#section3 .slide .info .work-btn .guide-btn{
+    padding: 10px 50px;
+    transition: 0.3s;
+    font-size: 26px;
+    background-color: #fff;
+}
+
+/* contact */
+#section4 .container{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    outline: 3px solid darkgreen;
+    
+}
+#section4 h1{
+    font-size: 60px;
+    font-family: 'SEBANG_Gothic_Bold';
+} 
+#section4 p{
+    font-size: 20px;
+}
+#section4 .container p:first-child{
+    margin-bottom: 50px;
+}

@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'SEBANG_Gothic_Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+ }
+
+
+body{
+  font-family: 'NanumBarunGothic';
+}
+* {
+  margin: 0; padding: 0;
+}
+ul { 
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+.section {
+  text-align:center;
+  font-size: 3em;
+}
+.section ul li{
+}
+
+#menu {
+  position: fixed;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  /* outline: 1px solid red; */
+  width: 100%;
+}
+#menu li{ 
+  margin: 1em 2em;
+}
+
+
+/* slider arrow */
+.fp-controlArrow.fp-prev{
+  left: 50px;
+}
+
+.fp-controlArrow.fp-next{
+  right: 50px;
+}
+
+
+#section1{
+  background-image: url(../images/15185813_5564522.jpg);
+  z-index: -2;
+}
