@@ -1,5 +1,7 @@
-# info-page
+#김현진 2022 포토폴리오
 
-https://wowjdql98.github.io/info-page/
-
-- 모바일 컨테이너 아웃라인이 주석 반영이안됨.....
+목차
+1. home
+2. about
+3. portfolio (work)
+4. contact
