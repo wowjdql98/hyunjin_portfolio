@@ -32,3 +32,8 @@ https://wowjdql98.github.io/hyunjin_portfolio/
 * contact 섹션
   - 이메일, 연락처를 확인할수있습니다.
    - (허전해보여서 수정예정)
+   
+   
+------------------
+**수정 사항**
+* 
