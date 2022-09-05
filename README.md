@@ -1,4 +1,4 @@
-#김현진 2022 포토폴리오
+# 김현진 2022 포토폴리오
 https://wowjdql98.github.io/hyunjin_portfolio/
 <hr>
 - 풀페이지 구성 
