@@ -178,7 +178,7 @@
     margin-top: 140px;
 }
 #section3 .slide .pj01{
-    background: rgba(0, 0, 102, 0.3);
+    background: rgba(0, 0, 102, 0.5);
     
 }
 #section3 .slide .pj02{
@@ -254,12 +254,10 @@
     font-size: 20px;
 
 }
-#section4 .container p:first-child{
-    /* margin-bottom: 50px; */
-}
 
 
-body{ 
+
+#section4{ 
   background:radial-gradient(200% 100% at bottom center,#F7F7B6,#E96F92,#75517D,#2b3f6b); 
   background:radial-gradient(220% 105% at top center,#4464a3 10%,#75517D 40%,#E96F92 65%,#F7F7B6); 
   background-attachment:fixed; 

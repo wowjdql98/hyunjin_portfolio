@@ -338,13 +338,11 @@
 
 }
 
-body{ 
+#section4{ 
   background:radial-gradient(200% 100% at bottom center,#F7F7B6,#E96F92,#75517D,#2b3f6b); 
   background:radial-gradient(220% 105% at top center,#4464a3 10%,#75517D 40%,#E96F92 65%,#F7F7B6); 
   background-attachment:fixed; 
   overflow:hidden;
-  width: 100vw;
-  height: 100vh;
 }
 @keyframes rotate{
   0%{
