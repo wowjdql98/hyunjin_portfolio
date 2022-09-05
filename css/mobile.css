@@ -275,6 +275,20 @@
   font-size: 18px;
   padding-bottom: 10px;
 }
+#section3 .slide .info span{
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+#section3 .slide .info .info_in{
+  /* outline: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 #section3 .slide .info .work-btn{
   margin-top: 20px;
@@ -335,7 +349,7 @@
 }
 #section4 .container p{
   font-size: 18px;
-
+  margin-bottom: 10px;
 }
 
 #section4{ 

@@ -178,7 +178,7 @@
     margin-top: 180px;
 }
 #section3 .slide .pj01{
-    background: rgba(0, 0, 102, 0.5);
+    background: rgba(0, 0, 102, 0.6);
     
 }
 #section3 .slide .pj02{
@@ -195,6 +195,21 @@
     font-size: 22px;
     padding-bottom: 10px;
 }
+#section3 .slide .info span{
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+#section3 .slide .info .info_in{
+  /* outline: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 #section3 .slide .info .work-btn{
     margin-top: 30px;
     display: flex;
@@ -209,20 +224,26 @@
     margin-top: 50%;
 }
 #section3 .slide .info .work-btn .web-btn{
+    font-weight: 600;
     background-color: #a3afd9;
     font-size: 24px;
     padding: 10px 30px;
     transition: 0.3s;
     margin-right: 50px;
     margin-left: 20px;
+    border-radius: 30px;
     cursor: pointer;
+    border-style: none;
 }
 #section3 .slide .info .work-btn .guide-btn{
     padding: 10px 30px;
+    font-weight: 600;
     transition: 0.3s;
     font-size: 24px;
     background-color: #fff;
     cursor: pointer;
+    border-radius: 30px;
+    border-style: none;
 }
 
 /* contact */
@@ -252,7 +273,7 @@
 }
 #section4 p{
     font-size: 20px;
-
+    margin-bottom: 10px;
 }
 
 
