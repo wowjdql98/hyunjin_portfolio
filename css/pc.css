@@ -167,7 +167,7 @@
 #section3 .mobile img{
     width: 300px;
     height: 500px;
-    margin-top: 120px;
+    margin-top: 140px;
 }
 #section3 .slide .info{
     padding: 30px;
@@ -175,7 +175,7 @@
     margin-top: 15%;
 }
 #section3 .repj img{
-    margin-top: 140px;
+    margin-top: 180px;
 }
 #section3 .slide .pj01{
     background: rgba(0, 0, 102, 0.5);
@@ -188,11 +188,11 @@
     background: rgba(254, 242, 0, 0.5);
 }
 #section3 .slide .info h4{
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 40px;
 }
 #section3 .slide .info p {
-    font-size: 18px;
+    font-size: 22px;
     padding-bottom: 10px;
 }
 #section3 .slide .info .work-btn{
