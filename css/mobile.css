@@ -253,7 +253,7 @@
 
 }
 #section3 .slide .pj01{
-    background: rgba(0, 0, 102, 0.4);
+  background: rgba(0, 0, 102, 0.4);
 }
 #section3 .slide .pj02{
   background: rgba(144, 113, 55, 0.8);
@@ -306,12 +306,16 @@
   font-size: 20px;
   padding: 5px 20px;
   transition: 0.3s;
+  border-radius: 30px;
   margin-right: 50px;
+  border-style: none;
 }
 #section3 .slide .info .work-btn .guide-btn{
   padding: 5px 20px;
   transition: 0.3s;
   font-size: 20px;
+  border-radius: 30px;
+  border-style: none;
   background-color: #fff;
 }
 /* slide arrow */
